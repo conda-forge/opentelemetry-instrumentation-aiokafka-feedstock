@@ -24,8 +24,8 @@ requirements:
   run:
     - python >=${{ python_min }}
     - opentelemetry-api >=1.27,<2.dev0
-    - opentelemetry-instrumentation ==0.63b1
-    - opentelemetry-semantic-conventions ==0.63b1
+    - opentelemetry-instrumentation ==${{ version }}
+    - opentelemetry-semantic-conventions ==${{ version }}
     - typing_extensions >=4.1,<5.dev0
     - aiokafka >=0.8,<1.0
 
