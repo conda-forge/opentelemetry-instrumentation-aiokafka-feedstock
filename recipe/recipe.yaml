@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.66b0"
+  version: "0.66b1"
 
 package:
   name: opentelemetry-instrumentation-aiokafka
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/opentelemetry-instrumentation-aiokafka/opentelemetry_instrumentation_aiokafka-${{ version }}.tar.gz
-  sha256: 3287c038cb8d847f78fd14d0280a11b735e1e960e17a0fb170e995e9af392c50
+  sha256: 185e18196d52f13db75910bc5fa1900ff858dc3743c473e6bf4d57c712125448
 
 build:
   number: 0
